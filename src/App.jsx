@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './Components/Navbar'
 // import { Routes } from "react-router-dom"
+import Home from './Routes/Home'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       {/* <Routes> */}
       <Navbar/>        
       {/* </Routes> */}
+      <Home/>
     </>
   )
 }
