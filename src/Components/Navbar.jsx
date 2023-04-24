@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
 import "./NavbarStyles.css"
+import { MenuItems } from './MenuItems'
 
 export default class Navbar extends Component {
   render() {
     return (
         <nav className='navbar'>
           <ul className='navMenu'>
-            <li><a href='/'>HOME</a></li>
-            <li>ABOUT US</li>
-            <li>GALLERY</li>
-            <li>CONTACT US</li>
+            
+            {MenuItems.map((item, i) => {
+              return (
+                <li key={i}><a href='/'>{item.title}</a></li>
+              )
+            })}
+
           </ul>
         </nav>
       )
