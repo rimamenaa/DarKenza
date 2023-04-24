@@ -1,0 +1,17 @@
+.navMenu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    padding: 0 30rem;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.navLinks:hover {
+    color: #ffbf00;
+}

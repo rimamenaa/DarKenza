@@ -10,7 +10,7 @@ export default class Navbar extends Component {
             
             {MenuItems.map((item, i) => {
               return (
-                <li key={i}><a href='/'>{item.title}</a></li>
+                <li key={i}><a className={item.cName} href='/'>{item.title}</a></li>
               )
             })}
 
