@@ -1,18 +1,26 @@
-.navMenu {
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* auto will center the element horizontally */
+    width: 100%;
+    z-index: 1; /*to make the navbar show on top of the image */
+  }
+  
+  .navMenu {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
     list-style: none;
     align-items: center;
-    padding: 0 5%;  /* % instead of rem or px for better resposivity */
-    justify-content: center; 
-    position: fixed;
-    
-}
+    justify-content: center;
+    padding: 0 30%; /* % instead of rem or px for better resposivity */
+  }
 
 .navLinks {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navLinks:hover {
