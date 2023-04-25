@@ -4,7 +4,8 @@
     grid-gap: 10px;
     list-style: none;
     align-items: center;
-    padding: 0 30rem;
+    padding: 0 5%;  /* % instead of rem or px for better resposivity */
+    justify-content: center; 
 }
 
 .navLinks {
@@ -16,7 +17,7 @@
     color: #ffbf00;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 850px) {
     .navMenu {
         display: flex;
         flex-direction: column;
