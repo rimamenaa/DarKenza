@@ -6,6 +6,8 @@
     align-items: center;
     padding: 0 5%;  /* % instead of rem or px for better resposivity */
     justify-content: center; 
+    position: fixed;
+    
 }
 
 .navLinks {
