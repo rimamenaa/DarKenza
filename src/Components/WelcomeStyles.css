@@ -1,12 +1,16 @@
-
 .welcome {
+    display: flex; /* use flexbox to position the image */
+    flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     position: relative;
+    background: #E9E9E9;  
 }
+  
 .welcomeImg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 50%; /* set the image width to 50% of the container */
+    height: auto; /* let the height adjust automatically */
     filter: brightness(80%);
+    padding: 50px;
 }
+  
