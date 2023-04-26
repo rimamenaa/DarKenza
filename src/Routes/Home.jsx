@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar'
 import Hero from '../Components/Hero'
 import HeroImage from '../assets/12.jpg'
 import Welcome from '../Components/Welcome'
-import welcomeImage from '../assets/1.jpg'
+import welcomeImage from '../assets/2.jpg'
 
 export default function Home() {
   return (

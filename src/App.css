@@ -1,8 +1,6 @@
 #root {
   margin: 0 auto;
   text-align: center;
-}
-p {
-  color: blue;
-  font-size: xx-large;
+  background-color: #E9E9E9;
+
 }
