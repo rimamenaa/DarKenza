@@ -4,6 +4,7 @@ import Hero from '../Components/Hero'
 import HeroImage from '../assets/12.jpg'
 import Welcome from '../Components/Welcome'
 import welcomeImage from '../assets/2.jpg'
+import Footer from '../Components/Footer'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     />
     <Welcome
     welcomeImg={welcomeImage}/>
+    <Footer/>
     </>
   )
 }

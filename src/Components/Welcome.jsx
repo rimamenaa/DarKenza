@@ -5,7 +5,6 @@ import "./WelcomeStyles.css"
 export default function Welcome(props) {
   return (
     <>
-    <div class="welcome-container">
     <div className="welcome">
       <div className="first-des">
         <div className="des-text">
@@ -18,7 +17,6 @@ export default function Welcome(props) {
       </div>
 
       </div>
-    </div>
     </div>
       
     </>
