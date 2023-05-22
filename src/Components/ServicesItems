@@ -1,0 +1,22 @@
+export const ServicesItems = [
+    {
+        icon: 'aa',
+        title: 'Restaurant'
+    },
+    {
+        icon: 'aa',
+        title: 'Pool'
+    },
+    {
+        icon: 'aa',
+        title: 'Beach'
+    },
+    {
+        icon: 'aa',
+        title: 'Spa'
+    },
+    {
+        icon: 'aa',
+        title: 'Room Service'
+    },
+]

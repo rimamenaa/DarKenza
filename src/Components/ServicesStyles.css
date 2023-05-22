@@ -1,0 +1,21 @@
+.material-symbols-outlined {
+    font-size: 4rem;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 90px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+h6 {
+    font-size: 1.2rem;
+    margin: 6px 0 20px 0;
+}

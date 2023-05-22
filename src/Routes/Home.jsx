@@ -5,6 +5,7 @@ import HeroImage from '../assets/12.jpg'
 import Welcome from '../Components/Welcome'
 import welcomeImage from '../assets/2.jpg'
 import Footer from '../Components/Footer'
+import Services from '../Components/Services'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     />
     <Welcome
     welcomeImg={welcomeImage}/>
+    <Services/>  
     <Footer/>
     </>
   )
